@@ -35,6 +35,7 @@ Middleware auth:sanctum is applied where authentication is required.
 
 ```bash
 git clone https://github.com/1102abdo/Atrract_women
+
 cd attract_women
 
 composer install
@@ -44,6 +45,8 @@ cp .env.example .env
 php artisan key:generate
 
 php artisan migrate
+
+php artisan serv
 
 
 
